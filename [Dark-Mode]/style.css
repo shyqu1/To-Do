@@ -64,26 +64,6 @@ li {
 }
 
 
-/* div container = button1 */
-.buttonnav {
-}
-
-/* button (upper right) */
-.button1 {
-  position: absolute;
-  width: 433px;
-  height: 127px;
-  left: 257px;
-  top: 644px;
-  background: #C6B5C9;
-  border-radius: 150px;
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 60px;
-line-height: 105px;
-color: #FFFFFF;
-}
 
 
 /* Your To Do’s. */
@@ -158,21 +138,7 @@ h1 {
   position: absolute;
 }
 
-  /* button (get started now) */
-.button3 {
-  width: 633px;
-  height: 147px;
-  margin-left: 300px;
-  margin-top: 564px;
-  background: #C6B5C9;
-  border-radius: 150px;
-font-family: 'Poppins', sans-serif;
-font-weight: bold;
-font-size: 70px;
-line-height: 105px;
-color: #FFFFFF;
-}
-
+ 
 
 
   /* button:hover (applies to every button) */
