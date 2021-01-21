@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #000;
+  height: 1280 / x * 100%;
+  width: 1280 / x * 100%;
+  }
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+
+  /* BuzhigSR & shyqu (Developers) */
+  .devs {
+    padding: 2.68% 0% 0% 3.51%inherit;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20;
+    color: #ffffff;
+    z-index: 100;
+    }
+
+/* about (navigation-bar) */
+.aboutnav {
+position: absolute;
+width: 359px;
+height: 133px;
+right: : 79px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 45px;
+color: #E7D6D6;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* login (navigation-bar) */
+.loginnav {
+  position: absolute;
+width: 129px;
+height: 133px;
+font-family: Poppins;
+font-weight: bold;
+font-size: 30px;
+line-height: 45px;
+color: #E7D6D6;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+z-index: 100;
+
+}
+
+li {
+  list-style: none;
+}
+
+
+/* div container = button1 */
+.buttonnav {
+  position: absolute;
+
+}
+
+/* button (upper right) */
+.button1 {
+  position: absolute;
+  width: 413px;
+  height: 117px;
+  left: 1417px;
+  top: 0px;
+  background: #C6B5C9;
+  border-radius: 150px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 105px;
+color: #FFFFFF;
+z-index: 100;
+
+}
+
+.button1:hover {
+  cursor: pointer;
+}
+
+/* Your To Do’s. */
+h1 {
+
+  position: absolute;
+  width:1280 / x * 100%;
+  width:1980 / x * 100%;
+  height: 1280 / x * 100%;
+  height: 1980 / x * 100%;
+  left: 5%;
+  top: 3%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  width: 100%;
+  line-height: 150px;
+  color: #FFFFFF;
+  z-index: 100;
+
+  }
+/* Anytime and everywhere. (below main-heading) */
+.bluefont {
+
+  position: absolute;
+  width: 90%;
+  height: 1280 / x * 100%%;
+  left: 10%;
+  top: 20%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  color:  rgb(53, 88, 210);
+    z-index: 100;
+}
+
+
+/* Try it yourself for free. (green / blue) ; below 'bluefont' */
+
+/* "Try it yourself (color: green)" */
+.maintext1 {
+  position: absolute;
+  width: 1064px;
+  height: 10%;
+  left: 10%;
+  top: 25%;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 300px;
+  z-index: 100;
+  line-height: 150px;
+  color: rgb(85, 205, 133);
+  }
+/* <br> */
+  /* "for free. (color: blue)" */
+  .maintext2 {
+    position: absolute;
+    width: 67%;
+    height: 90%;
+    left: 10.5%;
+    top: 38%;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 300px;
+    line-height: 150px;
+    color: rgb(85, 205, 133);
+  }
+
+
+/* div container = button3 */
+.button2nav {
+  position: absolute;
+}
+
+  /* button (get started now = below maintext1;2) */
+.button3 {
+  width: 633px;
+  height: 147px;
+  margin-left: 300px;
+  margin-top: 564px;
+  background: #C6B5C9;
+  border-radius: 150px;
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+font-size: 60px;
+line-height: 105px;
+color: #FFFFFF;
+}
+
+.button3:hover {
+  cursor: pointer;
+}
+
+  /* button:hover (applies to every button) */
+  button:hover {
+    color: blue;
+    text-decoration-style: wavy;
+    font-weight: bolder;
+  }
+@media only screen and (max-width: 1200px) {
+ li { margin-left: 300px; }
+ .aboutnav {  padding-right: : 1em; top: 55px; left:80px; }
+ .loginnav { padding: 1em; right: 116px; top: 26px; }
+ h1 { top: 170px; font-size: 130px; }
+ .bluefont { margin-top: 155px; }
+ .maintext1  { top: 35%; }
+ .maintext2 { top: 50%; margin-left: 15px; }
+ .button2nav { margin-top: 160px; }
+ .buttonnav { top: 5.6%; right: 105%;}
+ .devs { font-size: 20px;}
+}
